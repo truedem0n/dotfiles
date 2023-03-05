@@ -119,5 +119,12 @@ fi
 
 
 # --------------- user stuff ------------------- #
+# ssh aliases
+if [ -f ~/.ssh_aliases ]; then
+    . ~/.ssh_aliases
+fi
 
-source /home/skylord/extra/completions/alacritty.bash
+# starship
+eval "$(starship init bash)"
+
+source ~/alacritty.bash

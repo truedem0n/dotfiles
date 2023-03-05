@@ -2,3 +2,5 @@
 !.gitignore
 !.zshrc
 !.bashrc
+!.config/alacritty/alacritty.yml
+!alacritty.bash
