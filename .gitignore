@@ -1,7 +1,6 @@
 *
 !.gitignore
 !.tracked_zshrc
-!.config/*
-!alacritty.bash
+!.config/alacritty/*
 !append_to_bash_zsh.sh
 
