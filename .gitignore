@@ -1,6 +1,6 @@
 *
 !.gitignore
-!.zshrc
+!.tracked_zshrc
 !.bashrc
 !.config/alacritty/alacritty.yml
 !alacritty.bash
