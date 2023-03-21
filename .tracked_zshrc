@@ -12,6 +12,10 @@ if [ -f ~/.ssh_aliases ]; then
     . ~/.ssh_aliases
 fi
 
+alias vim="neovide --frame none"
+
+
+
 # starship
 eval "$(starship init zsh)"
 # --------------- user stuff ------------------- #
