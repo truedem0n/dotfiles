@@ -1,6 +1,5 @@
 
 
-
 # --------------- user stuff ------------------- #
 # Key bindings
 bindkey '^[[1;5D' backward-word

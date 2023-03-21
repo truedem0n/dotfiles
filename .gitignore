@@ -1,7 +1,7 @@
 *
 !.gitignore
 !.tracked_zshrc
-!.bashrc
-!.config/alacritty/alacritty.yml
+!.config/*
 !alacritty.bash
 !append_to_bash_zsh.sh
+
