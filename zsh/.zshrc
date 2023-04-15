@@ -1,6 +1,6 @@
 
 
-source .user_zshrc
+source ~/.user_zshrc
 
 
 

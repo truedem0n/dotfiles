@@ -1,2 +1,0 @@
-# dotfiles
-zsh bash alacritty 

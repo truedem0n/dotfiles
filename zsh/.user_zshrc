@@ -7,17 +7,22 @@ bindkey '^[[1;5C' forward-word
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
 
-# ssh aliases
+# Aliases
+
+# ssh
 if [ -f ~/.ssh_aliases ]; then
     . ~/.ssh_aliases
 fi
 
-# Aliases
 # vim
 alias vim="nvim"
 
-# ls 
+# fs navigation
 alias ll='ls -lah'
+alias ..='cd ..'
+alias ~='cd ~'
+
+
 
 # starship
 eval "$(starship init zsh)"
