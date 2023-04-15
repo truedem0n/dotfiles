@@ -1,0 +1,16 @@
+# ssh
+if [ -f ~/.ssh_aliases ]; then
+    . ~/.ssh_aliases
+fi
+
+# vim
+alias vim="nvim"
+
+# fs navigation
+alias ll='ls -lah'
+alias ..='cd ..'
+alias ~='cd ~'
+
+
+# github copilot cli
+eval "$(github-copilot-cli alias -- "$0")"
