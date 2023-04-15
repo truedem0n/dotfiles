@@ -12,10 +12,17 @@ if [ -f ~/.ssh_aliases ]; then
     . ~/.ssh_aliases
 fi
 
-alias vim="neovide --frame none"
+# Aliases
+# vim
+alias vim="nvim"
 
-
+# ls 
+alias ll='ls -lah'
 
 # starship
 eval "$(starship init zsh)"
+
+
+# github copilot cli
+eval "$(github-copilot-cli alias -- "$0")"
 # --------------- user stuff ------------------- #
