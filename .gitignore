@@ -1,8 +1,0 @@
-/*
-!.gitignore
-!.tracked_zshrc
-!.config/
-.config/*
-!.config/alacritty/
-!.config/starship.toml
-!append_to_bash_zsh.sh
