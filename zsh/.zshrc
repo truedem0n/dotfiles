@@ -8,6 +8,7 @@ bindkey "^[[1;3D" backward-word
 
 
 source ~/.aliases
+source ~/.exported_paths
 
 # starship
 eval "$(starship init zsh)"
