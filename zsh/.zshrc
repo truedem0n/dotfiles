@@ -12,3 +12,4 @@ source ~/.exported_paths
 
 # starship
 eval "$(starship init zsh)"
+
